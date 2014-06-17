@@ -1,3 +1,4 @@
+#TODO provide life lesson for the squirrel people 
 for filename in $*
 do
    echo $filename 
