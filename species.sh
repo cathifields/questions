@@ -2,6 +2,8 @@
 #list kingdom,pylum, species
 for filename in $*
 do
+   echo '////////'
    echo $filename 
+   echo '////////'
    cut -d',' -f2 z $filename | sort | uniq
 done
